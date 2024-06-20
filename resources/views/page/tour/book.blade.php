@@ -5,7 +5,7 @@
 @section('seo')
 @stop
 @section('content')
-    <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url({{ asset('/page/images/bg_1.jpg') }});">
+    <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url({{ asset('/page/images/dulich11.jpg') }});">
         <div class="overlay"></div>
         <div class="container">
             <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
@@ -52,7 +52,7 @@
                             <span class="fa fa-globe"></span>
                         </div>
                         <h3 class="mb-2">Website</h3>
-                        <p><a href="#">http://vhdtravel.xyz</a></p>
+                        
                     </div>
                 </div>
             </div>
@@ -157,7 +157,7 @@
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <img src="{{ asset('page/images/travel.jpg') }}" alt="" class="image-book">
+                        <img src="{{ asset('page/images/dulich10.jpg') }}" alt="" class="image-book">
                     </div>
                     <div>
                     <table style="border-collapse: collapse; width: 100%;margin-top:20px" border="1">

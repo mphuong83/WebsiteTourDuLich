@@ -1,5 +1,5 @@
 @extends('page.layouts.page')
-@section('title', 'Cuộc đời là những chuyến đi | VHD Travel')
+@section('title', 'Cuộc đời là những chuyến đi')
 @section('style')
 @stop
 @section('content')
@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row no-gutters slider-text js-fullheight align-items-center" data-scrollax-parent="true">
                 <div class="col-md-7 ftco-animate">
-                    <span class="subheading">Welcome to VHD Travel</span>
+                    <span class="subheading">Welcome to DU LICH</span>
                     <h1 class="mb-4">Khám phá địa điểm yêu thích của bạn với chúng tôi</h1>
                     <p class="caps">Du lịch đến bất kỳ nơi nào bạn chỉ cần liên hệ với chúng tôi</p>
                 </div>

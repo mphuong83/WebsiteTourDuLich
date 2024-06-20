@@ -3,7 +3,7 @@
     <div class="project-wrap">
         <a href="{{ route('tour.detail', ['id' => $tour->id, 'slug' => safeTitle($tour->t_title)]) }}" class="img"
             
-           style="background-image: url({{ $tour->t_image ? asset(pare_url_file($tour->t_image)) : asset('admin/dist/img/no-image.png') }});">
+           style="background-image: url({{ $tour->t_image ? asset(pare_url_file($tour->t_image)) : asset('admin/dist/img/dulich7.png') }});">
            @if( $tour->t_sale > 0)
            <span  class="price">Sale {{ $tour->t_sale }}%</span>
            @endif

@@ -1,7 +1,7 @@
 <div class="{{ !isset($itemHotel) ? 'col-md-4' : '' }} ftco-animate fadeInUp ftco-animated {{ isset($itemHotel) ? $itemHotel : '' }}">
     <div class="project-wrap hotel">
         <a href="{{ route('hotel.detail', ['id' => $hotel->id, 'slug' => safeTitle($hotel->h_name)]) }}"
-           class="img" style="background-image: url({{ $hotel->h_image ? asset(pare_url_file($hotel->h_image)) : asset('admin/dist/img/no-image.png') }});">
+           class="img" style="background-image: url({{ $hotel->h_image ? asset(pare_url_file($hotel->h_image)) : asset('admin/dist/img/dulich9.png') }});">
             <span class="price">{{ number_format($hotel->h_price,0,',','.') }} vnd</span>
         </a>
         <div class="text p-4">
